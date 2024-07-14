@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         AllData data = new AllData();
 
-        Book booK = new Book("1234567891011", "A", "2", "B");
-        Book book1 = new Book("1234567891111", "D", "2024", "D");
+        Book booK = new Book("1234567891011", "A", 2020, "B");
+        Book book1 = new Book("1234567891111", "D", 2024, "D");
         data.addBook(booK);
         data.addBook(book1);
 

@@ -4,13 +4,13 @@ package Library;
 public class Book {
     private String ISBN;
     private String bookName;
-    private String publishYear;
+    private int publishYear;
     private String author;
     private boolean isAvailable;
 
     public Book(){}
 
-    public Book(String ISBN, String bookName, String publishYear, String author){
+    public Book(String ISBN, String bookName, int publishYear, String author){
         this.ISBN = ISBN;
         this.bookName = bookName;
         this.publishYear = publishYear;
@@ -41,7 +41,7 @@ public class Book {
         return bookName;
     }
 
-    public String getPublishYear(){
+    public int getPublishYear(){
         return publishYear;
     }
 
